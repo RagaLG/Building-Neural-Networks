@@ -1,0 +1,33 @@
+java GradientDescent mnist lenet5 kaiming 50 softmax 10 0.01 0.001 0.9 0 0 0 0 0 &> mnist_98.txt
+Log level set to INFO
+[INFO   ] inputDropoutRate: 0.0, hiddenDropoutRate: 0.0
+[INFO   ] reading image filename './datasets/train-images-idx3-ubyte' and label filename: './datasets/train-labels-idx1-ubyte
+[INFO   ] read 60000 MNIST images.
+[INFO   ] reading image filename './datasets/t10k-images-idx3-ubyte' and label filename: './datasets/t10k-labels-idx1-ubyte
+[INFO   ] read 10000 MNIST images.
+[INFO   ] Using an SOFTMAX loss function.
+[INFO   ] Starting minibatch gradient descent!
+[INFO   ] minibatch (50), mnist, softmax, lr: 0.001, mu:0.9
+[INFO   ] calculating initial error and accuracy
+[INFO   ] bestError error accuracy testingError testingAccuracy
+ITERATION  138472.27079440872 138472.27079440872    7.43333 23079.096044976584   6.80000
+[INFO   ] Learning rate: 9.75E-4
+  5997.889481237407 5997.889481237407   97.01500 1019.722945737261  96.83000
+[INFO   ] Learning rate: 9.50625E-4
+  4775.194308395375 4775.194308395375   97.65333 843.3257687705527  97.69000
+[INFO   ] Learning rate: 9.26859375E-4
+  4775.194308395375 5987.267894116367   97.03000 973.7798388734066  96.95000
+[INFO   ] Learning rate: 9.036878906249999E-4
+  4775.194308395375 4940.135625377154   97.60500 872.0434544779895  97.50000
+[INFO   ] Learning rate: 8.810956933593748E-4
+  4775.194308395375 5248.682934097761   97.44500 959.6557386916377  97.04000
+[INFO   ] Learning rate: 8.590683010253904E-4
+  2925.852949043981 2925.852949043981   98.49333 665.0291386074648  98.11000
+[INFO   ] Learning rate: 8.375915934997557E-4
+  2925.852949043981 3114.9782680428457   98.36000 631.873636611439  97.93000
+[INFO   ] Learning rate: 8.166518036622618E-4
+  2574.8368970085303 2574.8368970085303   98.66000 621.9477426769415  98.21000
+[INFO   ] Learning rate: 7.962355085707053E-4
+  2574.8368970085303 2604.9968945982637   98.65833 652.1018290766922  98.05000
+[INFO   ] Learning rate: 7.763296208564376E-4
+  1878.8851477691692 1878.8851477691692   98.99833 494.8989410677284  98.50000

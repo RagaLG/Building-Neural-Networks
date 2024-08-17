@@ -1,0 +1,11 @@
+Log level set to INFO
+[INFO   ] inputDropoutRate: 0.0, hiddenDropoutRate: 0.0
+[INFO   ] reading image filename './datasets/train-images-idx3-ubyte' and label filename: './datasets/train-labels-idx1-ubyte
+[INFO   ] read 60000 MNIST images.
+[INFO   ] reading image filename './datasets/t10k-images-idx3-ubyte' and label filename: './datasets/t10k-labels-idx1-ubyte
+[INFO   ] read 10000 MNIST images.
+[INFO   ] Using an SOFTMAX loss function.
+[INFO   ] Starting minibatch gradient descent!
+[INFO   ] minibatch (500), mnist, softmax, lr: 5.0E-4, mu:0.95
+[INFO   ] calculating initial error and accuracy
+[INFO   ] bestError error accuracy testingError testingAccuracy

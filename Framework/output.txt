@@ -1,0 +1,52 @@
+Files already downloaded and verified
+
+Training set size: 45000, Validation set size: 5000, Test set size: 10000
+Batch size: 128
+Device: cpu
+
+Count of parameters: 81678
+Epochs: 20
+Learning rate: 0.001
+
+Optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+
+/usr/local/lib/python3.10/dist-packages/torch/utils/data/dataloader.py:558: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+Epoch 0 - validation_loss: 1.764232873916626, validation_accuracy: 0.3344898819923401
+Epoch 1 - validation_loss: 1.5511276721954346, validation_accuracy: 0.4264705777168274
+Epoch 2 - validation_loss: 1.4069303274154663, validation_accuracy: 0.47385111451148987
+Epoch 3 - validation_loss: 1.3221046924591064, validation_accuracy: 0.5213465094566345
+Epoch 4 - validation_loss: 1.2628438472747803, validation_accuracy: 0.5458294749259949
+Epoch 5 - validation_loss: 1.1947473287582397, validation_accuracy: 0.5607881546020508
+Epoch 6 - validation_loss: 1.1857389211654663, validation_accuracy: 0.566762387752533
+Epoch 7 - validation_loss: 1.1536452770233154, validation_accuracy: 0.5902803540229797
+Epoch 8 - validation_loss: 1.1221669912338257, validation_accuracy: 0.593554675579071
+Epoch 9 - validation_loss: 1.0948288440704346, validation_accuracy: 0.6118106842041016
+Epoch 10 - validation_loss: 1.0646100044250488, validation_accuracy: 0.6100069284439087
+Epoch 11 - validation_loss: 1.0272051095962524, validation_accuracy: 0.6247357130050659
+Epoch 12 - validation_loss: 1.0230495929718018, validation_accuracy: 0.6297564506530762
+Epoch 13 - validation_loss: 1.0124520063400269, validation_accuracy: 0.6350873112678528
+Epoch 14 - validation_loss: 0.9888536334037781, validation_accuracy: 0.6461626887321472
+Epoch 15 - validation_loss: 0.9963310956954956, validation_accuracy: 0.6342371702194214
+Epoch 16 - validation_loss: 0.9787091016769409, validation_accuracy: 0.6462661027908325
+Epoch 17 - validation_loss: 0.9587501287460327, validation_accuracy: 0.6531824469566345
+Epoch 18 - validation_loss: 0.9803069233894348, validation_accuracy: 0.6462430953979492
+Epoch 19 - validation_loss: 0.9456294775009155, validation_accuracy: 0.658283531665802
+
+Test Loss: 0.6689, Test set accuracy: 0.6689
